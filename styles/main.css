@@ -1,0 +1,8 @@
+body,
+body * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+canvas {
+  width: 100%; }
+
