@@ -1,7 +1,9 @@
 // The following line makes sure your styles are included in the project. Don't remove this.
 import '../styles/main.scss';
 // Import any additional modules you want to include below \/
-
+import backgroundPng from '../images/background.png';
+import testPlayer from '../images/testPlayer.png';
+import enemy from '../images/dragon.png';
 
 // \/ All of your javascript should go here \/
 
@@ -10,9 +12,9 @@ let gameScene = new Phaser.Scene('Game');
 
 //Load assets
 gameScene.preload = function(){
-  this.load.image('background', '/src/assets/background.png');
-  this.load.image('player', '/src/assets/testPlayer.png');
-  this.load.image('enemy', '/src/assets/dragon.png');
+  this.load.image('background', backgroundPng);
+  this.load.image('player', testPlayer);
+  this.load.image('enemy', enemy);
 }
 
 // called once after preload end 
