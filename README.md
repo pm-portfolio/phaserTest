@@ -1,6 +1,5 @@
 # DCI Boilerplate II: Webpack + babel
-# https://o0pmitev.github.io/phaserTest/
-
+https://pm-dev-domain.github.io/phaserTest/
 A [Webpack 4](https://webpack.js.org/) boilerplate with built-in:
 
 - HTML file generation to serve your webpack bundles using [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
